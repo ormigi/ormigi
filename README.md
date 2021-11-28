@@ -1,7 +1,7 @@
-- 👋 Hi, 
-- 👀 I’m interested in EDA
-- 🌱 I’m currently learning ML algorithms
-- 💞️ I’m looking to collaborate on similar projects, thx!
+- 👋 Hi thanks for checking my profile, I am a Data Scientist who recently acquired a masters degree. I am glad I can use this environment to learn more and develop my skills, as well as relate with other members.
+- 👀 I’m interested in EDA, applied robust statistics, statistical modelling, neural networks
+- 🌱 Interested also in applying ML algorithms in various situations
+- 💞️ I’m looking to collaborate on similar projects, please feel free to connect.
 
 
 <!---
