@@ -1,7 +1,7 @@
-- 👋 Hi thanks for checking my profile, I am a Data Scientist who recently graduated. I am glad I can use this environment to learn more and develop my skills, as well as relate with other members.
-- 👀 I’m interested in EDA, applied robust statistics, statistical modelling, neural networks
-- 🌱 ML, Docker
-- 💞️ I’m looking to collaborate on similar projects, please feel free to connect.
+- 👋 I am a Data Scientist; this is the best environment to learn more and develop my skills.
+- 👀 I’m interested in EDA, feature engineering, applied robust statistics, statistical modelling, neural networks
+- 🌱 Analytics, ML, AWS Glue, AWS Kafka,  Streaming, SQL programming, Python & Power BI  Visualizations  
+- 💞️ Currently working on Model tuning, Hyperparameters, Deployment.
 
 
 <!---
