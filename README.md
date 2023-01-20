@@ -1,7 +1,7 @@
 - 👋 I am a Data Scientist; this is the best environment to learn more and develop my skills.
 - 👀 I’m interested in EDA, feature engineering, applied robust statistics, statistical modelling, neural networks
 - 🌱 Analytics, ML, AWS Glue, AWS Kafka,  Streaming, SQL programming, Python & Power BI  Visualizations  
-- 💞️ Currently working on Model tunning, Hyperparameters, Deployment.
+- 💞️ Currently working on Python coding for various application and Shiny App in R.
 
 
 <!---
