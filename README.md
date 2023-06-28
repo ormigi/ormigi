@@ -1,4 +1,4 @@
-- 👋 I am a Data Scientist; this is the best environment to learn more and develop my skills. I will use this space to update my current projects/learning.
+- 👋 I am a Data Scientist who believes that this is the best environment to learn more and develop my skills. I will use this space to update my current projects/learning. I would like to thank all who participated, through their own effort, to advancing my skills.
 - 
 - 👀 Focus on the 2 major ways to access DATA in databases: 
 - OLTP -transactional access, data is modified often, in small amounts/ CRUDE
