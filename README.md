@@ -1,10 +1,19 @@
-- 👋 I am a Data Scientist who believes that this is the best environment to learn more and develop my skills. I will use this space to update my current projects/learning. I would like to thank all who participated, through their own effort, to advancing my skills.
-- 
-- 👀 Focus on the 2 major ways to access DATA in databases: 
+- 👋 I believe this is the best environment to learn more and develop my skills.
+- I will use this space to update my current projects/learning.
+- I would like to thank all who participated, through their own effort, to advancing my skills.
+
+
+
+Featured:
+
+1. **Pandas Pivot Table with Visualization Tutorial**.ipynb   from  https://github.com/AbhisheakSaraswat/RawData
+
+ 
+2. 👀 Focus on the **2 major ways to access DATA in databases**: 
 - OLTP -transactional access, data is modified often, in small amounts/ CRUDE
 - vs OLAP -analytical access, large amounts of data + complex is queried
 
- Question answered:  Why do we need to duplicate our data /remodel it for analytics?
+ Question answered:  **Why do we need to duplicate our data /remodel it for analytics?**
  Answered by https://shorturl.at/egC12 , picture courtesy https://shorturl.at/egC12
  
  ![image](https://github.com/ormigi/ormigi/assets/87470616/06311aef-407b-4094-a707-ce174cccb164)
