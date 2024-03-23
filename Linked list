@@ -1,0 +1,117 @@
+Python Linked List structure
+
+class StringList:
+	def __init__(self, char):
+		self.char_ = char
+		self.next = None
+
+# Function to create a new StringList node
+def create_string_list(string):
+	if not string:
+		return None
+
+	rest_of_string = create_string_list(string[1:])
+	new_node = StringList(string[0])
+	new_node.next = rest_of_string
+	return new_node
+
+# Function to slice a StringList
+def string_list_slice(string_list, begin, end):
+	slice_ = ""
+
+	i = 0
+	while i < end:
+		if string_list is None:
+			break
+
+		if i >= begin:
+			slice_ += string_list.char_
+
+		string_list = string_list.next
+		i += 1
+
+	return slice_
+
+# Read input from stdin
+input_string = input().strip()
+
+# Read integers
+ind_begin = int(input())
+ind_end = int(input())
+
+# Create StringList instance
+str_list = create_string_list(input_string)
+
+# Call string_list_slice and print the result
+str_slice = string_list_slice(str_list, ind_begin, ind_end)
+print(str_slice)
+
+
+
+
+
+|--------------------------------------------------------------------|
+| Key Takeaway                 | Implementation                      |
+|--------------------------------------------------------------------|
+| Define a Node Class          | class ListNode:                     |
+|                              |     def __init__(self, value):      |
+|                              |         self.value = value          |
+|                              |         self.next = None            |
+|--------------------------------------------------------------------|
+| Implement Functions for List | Create a List:                      |
+| Operations                   | def create_linked_list(data):       |
+|                              |     if not data:                    |
+|                              |         return None                |
+|                              |     head = ListNode(data[0])       |
+|                              |     current = head                 |
+|                              |     for value in data[1:]:         |
+|                              |         current.next = ListNode(value) |
+|                              |         current = current.next     |
+|                              |     return head                    |
+|--------------------------------------------------------------------|
+|                               | Slice the List:                     |
+|                               | def slice_linked_list(head, start, end): |
+|                               |     if not head:                    |
+|                               |         return None                |
+|                               |     result = ""                    |
+|                               |     current = head                 |
+|                               |     index = 0                      |
+|                               |     while current and index < end: |
+|                               |         if index >= start:         |
+|                               |             result += current.value |
+|                               |         current = current.next     |
+|                               |         index += 1                 |
+|                               |     return result                  |
+|--------------------------------------------------------------------|
+| Use Recursion                | Recursively Create a List:         |
+|                              | def create_linked_list_recursive(data): |
+|                              |     if not data:                    |
+|                              |         return None                |
+|                              |     head = ListNode(data[0])       |
+|                              |     head.next = create_linked_list_recursive(data[1:]) |
+|                              |     return head                    |
+|--------------------------------------------------------------------|
+| Iterate Through the List     | Loop Through the List:             |
+|                              | def iterate_linked_list(head):     |
+|                              |     current = head                 |
+|                              |     while current:                 |
+|                              |         print(current.value)       |
+|                              |         current = current.next     |
+|--------------------------------------------------------------------|
+| Handle Edge Cases            | Handle Empty List: Ensure your     |
+|                              | functions gracefully handle cases  |
+|                              | where the list is empty.           |
+|                              | def handle_empty_list():           |
+|                              |     print("List is empty")         |
+|                              |     return None                    |
+|--------------------------------------------------------------------|
+| Modularity and Reusability   | Write functions in a modular and   |
+|                              | reusable manner so they can be     |
+|                              | easily adapted or reused in        |
+|                              | different parts of your codebase.  |
+|                              | def utility_function():            |
+|                              |     # This function performs a     |
+|                              |     # specific utility operation   |
+|                              |     pass                            |
+|--------------------------------------------------------------------|
+
