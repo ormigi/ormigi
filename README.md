@@ -6,7 +6,7 @@
 
 Featured:
 
-0. ========    Linked lists      =======    Why do we define a NODE CLASS (Python)? ======
+0. ========    Linked lists      =======    Why do we define a NODE CLASS (Python)? ======  https://github.com/ormigi/ormigi/blob/main/Linked%20list
    
 When we talk about linked lists, think of them as a chain of items, like a string of beads. Each bead is a piece of data, like a number or a word. Now, imagine you want to write a program to manage these beads, to add new ones, remove them, or find specific ones. To do this, you need a way to represent each bead and how they connect to each other. That's where the NODE CLASS comes in. It's like a blueprint for each bead. It tells the program what each bead looks like and how it's connected to the next one in the chain.
 
